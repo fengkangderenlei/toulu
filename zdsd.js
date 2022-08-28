@@ -165,5 +165,4 @@ function Env(a,b){return"undefined"!=typeof process&&JSON.stringify(process.env)
 ${this.name} 运行结束，共运行了 ${b} 秒！`),(this.isSurge()||this.isQuanX()||this.isLoon())&&$done(a)}}(a,b)}(async()=>{if("undefined"!=typeof $request);else{if(!await checkEnv())return;let a=0;for(let c of ckArr){a+=1,console.log(`
 =============账号${a}=============
 `);let b=c.split("#"),d=b[0],e=b[1];await userinfo(d,e)}}})().catch(a=>console.log(a)).finally(()=>$.done())
-x1.00
 
