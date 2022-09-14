@@ -1,10 +1,4 @@
-/*
-口味王会员中心 积分 抽红包   
-抓取*.kwwblcj.com 下的uid  不要UID=   果园新人引导任务需要手动做  现在默认积分够就去天天领红包 领多少看人品
-依赖需要：@babel/parser  xpath  xmldom  jsdom 
-变量kwwapp   @ 或者 换行分割
-所有任务跑一个号大概要十分钟   一天一次 就可以 最好在上午十一点半到次日凌晨三点 不然不在抽奖时间
-*/
+
 const {CookieJar, Cookie} = require("tough-cookie");
 const got = require("got");
 const parser = require("@babel/parser");
